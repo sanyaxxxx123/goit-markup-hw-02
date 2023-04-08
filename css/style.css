@@ -1,0 +1,143 @@
+:root {
+    --brand-color: #4D5AE5;
+    --active-link-color: #404BBF;
+    --text-color-grey: #434455;
+    --text-color-dark: #2E2F42;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    color: var(--text-color-dark);
+    letter-spacing: 0.02em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-dark);;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17em;
+}
+
+.logo span {
+    color: var(--brand-color);
+}
+
+.nav-link {
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link.current {
+    color: var(--active-link-color);
+}
+
+.contact-link {
+    color: var(--text-color-grey);
+}
+
+.contact-link:hover, .contact-link:focus {
+    color: var(--active-link-color);
+}
+
+.banner-slogan {
+    font-weight: 700;
+    font-size: 56px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.07em;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.banner-section {
+    background-color: var(--text-color-dark);
+    text-align: center;
+}
+
+.btn {
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-size: 16px;
+  line-height: 1.5em;
+
+}
+
+.btn:hover, .btn:focus {
+    background: var(--active-link-color);
+    color: #FFFFFF;
+}
+
+.btn-white {
+    color: var(--brand-color);
+    border-width: 0;
+    border: 1px solid #E7E9FC;
+    padding: 12px 24px;
+}
+
+.btn-blue {
+   background-color: var(--brand-color);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-width: 0;
+   color: #ffffff;
+     
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+.description {
+    line-height: 1.5em;
+    color: var(--text-color-grey);
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.1em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--text-color-dark);
+}
+
+.bg-grey {
+    background-color: #F4F4FD;
+}
+
+.footer {
+    background: var(--text-color-dark);
+    color: #F4F4FD;
+}
+
+.footer a {
+    color: #F4F4FD;   
+}
